@@ -1,0 +1,4 @@
+Demonstration of LSS on the Lorenz system written in Matlab.  Gradients of long time averaged 'z' are computed with respect to the parameters sigma, beta and rho, as well as the z location of the bottom of the attractor, z_0. To run:
+
+1. Run init.m to solve for the primal.  Initial condition, time step size and parameter values can be modified in init.m.  
+2. Run lsspde_tan.m to solve for gradients using forward sensitivity analysis OR run lsspde_adj.m to solve for gradients using adjoint sensitivity analysis.  
